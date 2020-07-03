@@ -59,5 +59,3 @@ if __name__ == '__main__':
         print("{}\n\tConnection to the server has timed out{}\n".format(color.green, color.reset))
     except requests.ReadTimeout:
         print("{}\n\tThe Server failed to send the required data. Reload to solve problem{}\n".format(color.red, color.reset))
-    except json.J as e:
-        print("\n\tWow this is a pretty stubborn Error\n{}{}{}\n".format(color.yellow, help(e) , color.reset))

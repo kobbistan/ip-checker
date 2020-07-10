@@ -7,11 +7,15 @@
 #|___|  |_|         |_|     |___|  |_| \_|  |____/
 
 
-#MADE WITH LOVE BY KOBBISTAN
-#This program displays your current ip address on the terminal which is very necessary
+# MADE WITH LOVE BY KOBBISTAN
+# This program displays your current ip address on the terminal which is very necessary
 # in penetration testing
 #
-#DISCLAIMER NOTICE THIS PROGRAM SHOULD NOT BE USED FOR ILLEGAL PURPOSES
+## SUPPORT
+# BTC : 15J8YsEKTWoLyZYsoop2Cyn3NpAfEsAyc6 
+# ETH : 0x4B67440415E12C6b6833F35199DA51fFCcE2e4Ad
+#
+# DISCLAIMER NOTICE THIS PROGRAM SHOULD NOT BE USED FOR ILLEGAL PURPOSES
 
 import requests
 import json

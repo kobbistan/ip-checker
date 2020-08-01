@@ -13,6 +13,14 @@ python3 -m pip install -r requirements.txt
 ```bash
 python3 ipfind.py
 ```
+<br />
+To allow the app to run irrespective of the directory you are in
+```bash
+sudo cp ipfind.py /usr/bin/ipfind
+```
+```bash
+sudo chmod +x /usr/bin/ipfind
+```
 
 ## Contribution
 

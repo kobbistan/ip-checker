@@ -31,7 +31,7 @@ class color:
     reset  = "\033[0m"
 
 def ConnectionStart():
-    req = requests.request('get',"http://free.ipwhois.io/json/", timeout=3).json()
+    req = requests.request('get',"http://free.ipwhois.io/json/", timeout=1.5).json()
     global inow
     inow = dict(req)
 
